@@ -1,4 +1,5 @@
 const express = require("express");
+const { logger } = require("../index");
 const routes = express.Router();
 const fs = require("fs").promises;
 
@@ -17,6 +18,7 @@ routes.post("/account", async (req, res) => {
     res.send("post account");
   } catch (err) {
     res.status(400).send({ error: err.message });
+    logger.error(`POST ACCOUNT ${err.message}`);
   }
 });
 
