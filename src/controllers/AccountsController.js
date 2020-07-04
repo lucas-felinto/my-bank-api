@@ -1,3 +1,6 @@
+const { logger } = require("../utils/loggers");
+const fs = require("fs").promises;
+
 module.exports = {
   async create(req, res) {
     let account = req.body;
