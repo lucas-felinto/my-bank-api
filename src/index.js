@@ -22,5 +22,3 @@ app.listen(3000, async () => {
     );
   }
 });
-
-module.exports = logger;

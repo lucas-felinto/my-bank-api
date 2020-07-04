@@ -13,3 +13,5 @@ const logger = createLogger({
   ],
   format: combine(label({ label: "my-bank-api" }), timestamp(), myFormat),
 });
+
+module.exports = logger;
