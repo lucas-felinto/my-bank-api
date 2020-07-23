@@ -19,6 +19,8 @@
      <a href="#license">License</a>
 </h4>
 
+---
+
 ## :pushpin: About
 
 An API REST to simulate a bank account to practice nodejs. This API is a continuous study and is being actualized frequently.
